@@ -1,8 +1,7 @@
+
 <?php
-require('parts/head.php');
 require('parts/menu.php');
 ?>
-    
 
 
 

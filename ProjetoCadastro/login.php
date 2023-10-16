@@ -31,7 +31,7 @@
               </form>
             </div>
             <div class="btnLogar">
-                <a href="menu.html"><button class="btn btn-success logarBtn" title="Enviar"><b class="icon icon-paper-plane-o"> Entrar</b></button></a>
+                <a href="parts/menu.php"><button class="btn btn-success logarBtn" title="Enviar"><b class="icon icon-paper-plane-o"> Entrar</b></button></a>
             </div>
         </div>
     </main>
