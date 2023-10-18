@@ -10,6 +10,13 @@
 <?php 
 require('menu.php');
 ?>
+<div class="content_fluid">
+    <h1>Novo cadastro</h1>
+    <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping"><i class="bi bi-person"></i></span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+</div>
 <?php
 require('footer.php');
 ?>

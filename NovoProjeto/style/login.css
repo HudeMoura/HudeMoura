@@ -7,14 +7,9 @@
     -webkit-box-sizing: border-box;
 }
 
- /* Configuração Pagina */
+ /* Configuração Geral de Pagina */
 
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Open Sans', sans-serif;
     background:#ccc !important;
 }
@@ -25,6 +20,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.content_fluid{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh auto;
+}
+
+/* Configuração Formulários */
 
 .box { 
     width: 20%;
@@ -109,8 +114,6 @@ input {
     border-color: #333 !important; 
 }
 
-/* Configuração Menu */
-
 .formBox {
     width: 60%;
     height: 50%;
@@ -126,3 +129,7 @@ input {
 #formCad {
     width: 100%;
 }
+
+/* Configuração Menu */
+
+
