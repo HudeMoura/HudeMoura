@@ -1,25 +1,37 @@
+.pageRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
 .boxRegister {
-    width: 250%;
+    width: 60%;
     border-radius:6px; 
     background:#fff; 
     box-shadow: 1px 0px 1.2px 0px #ccc; 
-    justify-content: center !important;
-    align-items: center !important;
-    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
 form {
-    width: 180%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 100%;
+    color: #999 !important;
 }
+
+.align-items-center {
+    align-items: center !important;
+    margin-bottom: 3%;
+}
+
 .btnRegister {
-    width: 40%;
+    width: 80%;
+    text-align: center;
     flex-direction: row !important;
 }
+
 .btn-success {
     background-color:rgb(37,174,230) !important; 
     width:78%;
@@ -38,4 +50,9 @@ form {
 .logarBtn:hover { 
     background-color:#333 !important;
     border-color: #333 !important; 
+}
+
+.caduser{
+    width: 70%;
+    background: green;
 }
