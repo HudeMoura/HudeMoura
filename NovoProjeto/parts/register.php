@@ -19,75 +19,53 @@ require('menu.php');
         <div class="caduser">
             <form action="#">
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label"><i class="bi bi-person"></i></label>
+                <label for="inputName" class="col-sm-2 col-form-label"><i class="bi bi-person"></i></label>
                 <div class="col-sm-10">
-                <input type="password" id="inputName" class="form-control" placeholder="Nome completo">
+                <input type="text" id="inputName" class="form-control" placeholder="Nome completo">
                 </div>
             </div>
             <div class="mb-3 row">
-                    <div class="col-auto">
-                        <label for="inputName" class="col-sm-2 col-form-label"><i class="bi bi-person"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputName" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nome completo">
-                    </div>
+                <label for="inputCpf" class="col-sm-2 col-form-label"><i class="bi bi-person-vcard"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputCpf" class="form-control" placeholder="***.***.***-**">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputCpf" class="col-form-label"><i class="bi bi-person-vcard"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputCpf" class="form-control" aria-describedby="passwordHelpInline" placeholder="***.***.***-**">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputDate" class="col-sm-2 col-form-label"><i class="bi bi-calendar3"></i></label>
+                <div class="col-sm-10">
+                <input type="date" id="inputDate" class="form-control">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputDate" class="col-form-label"><i class="bi bi-calendar3"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="date" id="inputDate" class="form-control" aria-describedby="passwordHelpInline">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPhone" class="col-sm-2 col-form-label"><i class="bi bi-telephone"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputPhone" class="form-control" placeholder="(**) *****-****">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputPhone" class="col-form-label"><i class="bi bi-telephone"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputPhone" class="form-control" aria-describedby="passwordHelpInline" placeholder="(**) *****-****">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputCep" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputCep" class="form-control" placeholder="CEP">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputCep" class="col-form-label"><i class="bi bi-house"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputCep" class="form-control" aria-describedby="passwordHelpInline" placeholder="CEP">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputAddreses" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputAddreses" class="form-control" placeholder="Endereço">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputAddreses" class="col-form-label"><i class="bi bi-house"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputAddreses" class="form-control" aria-describedby="passwordHelpInline" placeholder="Endereço">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputCity" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputCity" class="form-control" placeholder="Cidade">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputCity" class="col-form-label"><i class="bi bi-house"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputCity" class="form-control" aria-describedby="passwordHelpInline" placeholder="Cidade">
-                    </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputState" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputState" class="form-control" placeholder="Estado">
                 </div>
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputState" class="col-form-label"><i class="bi bi-house"></i></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="inputState" class="form-control" aria-describedby="passwordHelpInline" placeholder="Estado">
-                    </div>
-                </div>
+            </div>
             </form>
         </div>
         <div class="btnRegister">
