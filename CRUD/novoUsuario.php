@@ -11,7 +11,7 @@
     </div>
     <div class="mb-3">
         <label for="name">Senha</label>
-        <input type="passworld" name="senha" class="form-control">
+        <input type="password" name="senha" class="form-control">
     </div>
     <div class="mb-3">
         <label for="name">Data de Nascimento</label>
