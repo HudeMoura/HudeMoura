@@ -7,10 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.php">Início</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="register.php">Cadastro</a>
+          <a class="nav-link" href="?page=register">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="?page=list">Listar</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

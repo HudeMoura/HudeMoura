@@ -17,7 +17,8 @@ require('menu.php');
             <h1>Novo cadastro</h1>
         </div>
         <div class="caduser">
-            <form action="#">
+            <form action="?page=salvar" method="POST">
+            <input type="hidden" name="acao" value="cadastrar">
             <div class="mb-3 row">
                 <label for="inputName" class="col-sm-2 col-form-label"><i class="bi bi-person"></i></label>
                 <div class="col-sm-10">
@@ -52,6 +53,12 @@ require('menu.php');
                 <label for="inputAddreses" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
                 <div class="col-sm-10">
                 <input type="text" id="inputAddreses" class="form-control" placeholder="Endereço">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputNumber" class="col-sm-2 col-form-label"><i class="bi bi-house"></i></label>
+                <div class="col-sm-10">
+                <input type="text" id="inputNumber" class="form-control" placeholder="Numero">
                 </div>
             </div>
             <div class="mb-3 row">

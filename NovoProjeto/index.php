@@ -11,6 +11,32 @@
 <?php 
 require('parts/login.php');
 ?>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <?php
+      $page = @$_REQUEST['page'];
+
+      switch ($page) {
+        case 'cadastro':
+            include("register.php");
+            break;
+        case 'listar':
+            include("list.php");
+            break;
+        case 'salvar':
+            include("save.php");
+            break;
+        case 'editar':
+            include("edit.php");
+            break;
+        default:
+            include("default.php");
+        }
+      ?>
+    </div>
+  </div>
+</div>
 <?php
 require('parts/footer.php');
 ?>

@@ -1,14 +1,8 @@
 <?php 
-$servername = "localhost";
-$username = "root";
-$password = "R00t";
-$dbname = "userList";
+    define('HOST', 'localhost');
+    define('USER', 'root');
+    define('PASS', '');
+    define('BASE', 'userList');
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if(!$conn){
-    die("Erro na conexão".$conn->connect_error);
-} else {
-    echo("Conexão ok");
-}
+    $conn = new MySQLi(HOST, USER, PASS, BASE); // Criando a conexão
 ?>
